@@ -1,0 +1,19 @@
+{
+    "name": "my-simple-vue",
+    "author": "zhiweili",
+    "description": "repo for Vue advanced workshop",
+    "scripts": {
+      "test": "jest --env node",
+      "watch": "jest --env node --watch"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/liunianyuying/my-mini-vue.git"
+    },
+    "dependencies": {
+      "jest": "^21.0.1",
+      "jsdom": "^11.2.0",
+      "vue": "^2.4.2"
+    }
+  }
+  

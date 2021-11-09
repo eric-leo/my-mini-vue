@@ -9,7 +9,7 @@
       return;
     }
     Object.keys(obj).forEach(key => {
-      const internalValue = obj[key];
+      let internalValue = obj[key];
       Object.defineProperty(obj, key, {
         get: () => {
           console.log(`getting key "${key}": ${internalValue}`);
